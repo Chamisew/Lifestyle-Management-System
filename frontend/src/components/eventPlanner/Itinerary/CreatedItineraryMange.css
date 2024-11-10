@@ -1,0 +1,131 @@
+.itinerary-management {
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 900px; 
+    margin: 0 auto; 
+    border: 2px solid #fbfbfb; 
+    position: relative;
+}
+
+.itinerary-title {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #1a2d4e; 
+    margin-bottom: 20px;
+    text-align: center; 
+    position: relative; 
+}
+
+/* .itinerary-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #617392; 
+    color:#cacbcc;
+    margin: 10px auto 0;
+    border-radius: 2px;
+} */
+
+.itinerary-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.itinerary-search-input {
+    width: 50%; 
+    padding: 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #ffffff; 
+}
+
+.itinerary-search-icon {
+    position: absolute;
+    left:12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px; 
+    color: #1a2d4e;
+    pointer-events: none;
+}
+
+
+
+
+.no-itineraries {
+    font-size: 18px; 
+    color: #888;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.itinerary-item {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.itinerary-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 10px;
+    height: 50%;
+    background-color: #355a9a; 
+    transform: translateY(-50%);
+}
+
+.itinerary-name {
+    font-size: 22px; 
+    font-weight: bold;
+    color: #1a2d4e;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.itinerary-event {
+    font-size: 16px;
+    color: #333;
+    margin-left: 30px;
+}
+
+.plan-more-button, .itenarydelete-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.plan-more-button {
+    background-color: #273f67;
+    color: #fff;
+}
+
+.plan-more-button:hover {
+    background-color: #1a2d4e;
+}
+
+.itenarydelete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.itenarydelete-button:hover {
+    background-color: #c82333;
+}

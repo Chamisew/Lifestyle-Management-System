@@ -1,0 +1,84 @@
+/* grid c6 */
+.grid-item{
+  background-color: #022b3a;
+}
+.grid-c6 .grid-item .avatar {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.grid-c6 .grid-item-top-l {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.grid-c6 .grid-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.grid-c6 .grid-item-top-r {
+  font-weight: 600;
+}
+.grid-c6 .grid-item-badges {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-c6 .grid-item-badge {
+  color: #00000076;
+  background-color: #1F7A8C;
+  display: inline-block;
+  border-radius: 16px;
+  padding: 4px 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  margin-right: 6px;
+}
+.grid-c6 .grid-item-progress {
+  background-color: #1F7A8C;
+  height: 10px;
+  border-radius: 100vh;
+  margin-top: 8px;
+}
+.grid-c6 .grid-item-fill {
+  width: 60%;
+  height: 10px;
+  background-color:#BFDBF7;
+  border-radius: 100vh;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.income-button-group {
+  display: flex;
+  margin-top: 5px; 
+  gap: 10px;
+}
+
+.income-edit-button,
+.income-delete-button {
+
+  padding: 2px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+

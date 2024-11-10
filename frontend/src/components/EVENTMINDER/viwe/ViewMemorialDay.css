@@ -1,0 +1,126 @@
+.memorial-day-reminder {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c2c2e; /* Consistent background color */
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #f9f9f9; /* Consistent text color */
+}
+
+.memorial-day-reminder h1 {
+    font-size: 2em;
+    color: #f9f9f9; /* Heading color */
+    margin-bottom: 15px;
+}
+
+.reminder-details {
+    background-color: #3a3a3c; /* Background for details */
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.reminder {
+    background-color: #4a4a4c; /* Reminder card background */
+    border: 1px solid #606060;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #f9f9f9; /* Reminder text color */
+}
+
+.countdown {
+    font-size: 1.2em; /* Countdown font size */
+    margin-bottom: 10px;
+    color: #00c853; /* Countdown color */
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex; /* Flexbox for button alignment */
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-group button {
+    background-color: #00c853; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 72px;
+    height: 42px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button-group button:hover {
+    background-color: #009e40; /* Darker shade on hover */
+}
+
+.popup {
+    position: fixed; /* Fixed position for popup */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff; /* Popup background */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Layering */
+}
+
+.popup-inner {
+    display: flex; /* Flexbox for popup inner content */
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-inner form {
+    display: flex; /* Flexbox for form layout */
+    flex-direction: column;
+    width: 100%;
+}
+
+.popup-inner input {
+    margin-bottom: 10px; /* Spacing for inputs */
+    padding: 10px;
+    border: 1px solid #ccc; /* Input border */
+    border-radius: 5px;
+    font-size: 1em; /* Input font size */
+}
+
+.popup-inner button {
+    padding: 8px 16px; /* Padding for buttons */
+    background-color: #00c853; /* Update button background color */
+    border: none;
+    color: white; /* Update button text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-bottom: 10px; /* Add margin below the Update button */
+}
+
+.close-btn {
+    background-color: #d32f2f; /* Close button background color */
+    padding: 8px 16px; /* Padding for close button */
+    border: none;
+    color: white; /* Close button text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.close-btn:hover {
+    background-color: #b71c1c; /* Darker shade on hover */
+}
+
+
+
+.highlight {
+    background-color: #00c853 !important; /* Highlight background */
+    color: white; /* Ensures text remains readable */
+}

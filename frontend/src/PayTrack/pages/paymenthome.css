@@ -1,0 +1,101 @@
+/* Container for the entire page */
+.paymenthomecontainer {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Prevent overflow of container */
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/016/242/593/original/blue-gradient-motion-background-free-video.jpg');
+}
+
+
+
+.main-content-payment {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1; /* Take up remaining space */
+  overflow-y: auto; /* Allow scrolling */
+  position: relative; /* Ensures absolute positioning works for child elements */
+}
+
+.side-menu {
+  width: 250px; /* Fixed width */
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Scroll if content overflows */
+  position: sticky; /* Keeps it in view */
+  top: 0; /* Align with top */
+  background-color: #f4f4f4; /* Background color */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Stays on top */
+}
+
+.date {
+  font-weight: normal;
+  color: #6c757d;
+}
+
+/* Main content container styling */
+.payment-home-container {
+  margin-top: 20px;
+  display: flex;
+  flex: 1; /* Grow to fill remaining space */
+}
+
+/* Left panel (50% width) */
+.payment-form {
+  width: 100%; /* Use full width for main content */
+  flex: 1; /* Allow components to grow and shrink */
+  overflow: hidden; /* Prevent scroll bars */
+  border-right: 1px solid #dee2e6; /* Optional border for separation */
+}
+
+/* Right panel (50% width) */
+.right-panel-pay {
+  width: 100%; /* Use full width for main content */
+  flex: 1; /* Allow components to grow and shrink */
+  overflow: hidden; /* Prevent scroll bars */
+}
+
+/* Inside right panel - optional additional styling */
+.yearly-payments,
+.monthly-payments-chart {
+  margin-bottom: 1rem;
+  flex: 1; /* Allow charts to grow */
+  max-width: 100%; /* Ensure charts use full available width */
+}
+
+/* Optional specific styling for charts */
+.payhomecontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1; /* Take up remaining space */
+  overflow-y: auto; /* Allow scrolling */
+  position: relative; /* Ensures absolute positioning works for child elements */
+}
+
+/* General button styling */
+.payment-home-container button {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding: 12px 24px; /* Increased padding for a larger button */
+  background-color: #0d3b66; /* Set button background color */
+  color: #fff;
+  border: 2px solid #0d3b66;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+/* General button hover effect */
+.payment-home-container button:hover {
+  background-color: #ffffff; 
+  color: #0d3b66; /* Slightly scale up the button */
+}
+
+
+.payment-home-container .button:active {
+  transform: scale(0.95);
+}

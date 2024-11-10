@@ -1,0 +1,163 @@
+.anniversary-reminder {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c2c2e;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #f9f9f9;
+}
+
+.anniversary-reminder h1 {
+    font-size: 2em;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+.anniversary-reminder .reminder-details {
+    background-color: #3a3a3c;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.anniversary-reminder .reminder {
+    background-color: #4a4a4c;
+    border: 1px solid #606060;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #f9f9f9;
+}
+
+.anniversary-reminder .countdown {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #00c853;
+    font-weight: bold;
+}
+
+.anniversary-reminder .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.anniversary-reminder .button-group button {
+    background-color: #00c853; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 72px;
+    height: 42px;
+    transition: background-color 0.3s;
+}
+
+.anniversary-reminder .button-group button:hover {
+    background-color: #009e40; /* Darker shade on hover */
+}
+
+.anniversary-reminder .button-group-calendar {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.anniversary-reminder .button-group-calendar button {
+    background-color: #00c853; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.anniversary-reminder .button-group-calendar button:hover {
+    background-color: #009e40; /* Darker shade on hover */
+}
+
+.popup {
+    position: fixed; /* Fixed position to overlay the popup */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the popup */
+    background-color: #ffffff; /* White background for the popup */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px; /* Padding inside the popup */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    z-index: 1000; /* Ensure the popup is above other content */
+    width: 400px; /* Set a width for the popup */
+    max-width: 90%; /* Responsive width for smaller screens */
+}
+
+.popup-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-inner h2 {
+    color: #00c853; /* Header text color */
+    margin-bottom: 15px; /* Space below the header */
+}
+
+.popup-inner form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.popup-inner input,
+.popup-inner textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em; /* Smooth transition for border color */
+}
+
+.anniversary-reminder .popup-inner input:focus,
+.anniversary-reminder .popup-inner textarea:focus {
+    border-color: #007bff; /* Highlight color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.anniversary-reminder .popup-inner button {
+    padding: 8px 16px;
+    background-color: #00c853; /* Primary button color */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.anniversary-reminder .popup-inner button:hover {
+    background-color: #009e40; /* Darker shade on hover */
+}
+
+.anniversary-reminder .close-btn {
+    margin-top: 10px;
+    background-color: #d32f2f; /* Close button color */
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.anniversary-reminder .close-btn:hover {
+    background-color: #b71c1c; /* Darker shade on hover */
+}
+
+.anniversary-reminder .highlight {
+    background-color: #00c853 !important; /* Highlighted text background */
+    color: white; /* Ensures text remains readable */
+}

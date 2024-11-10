@@ -1,0 +1,61 @@
+.gift-options-page {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .gift-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  
+  .gift-button {
+    padding: 80px 55px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 50px;
+  }
+  
+  .gift-button.kapruka {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeKjWwt5txpHaNepBb-b2GfbrBDciWz8QWsg&s');
+    background-repeat: no-repeat;
+    background-color: #7cba01;
+    color: rgba(255, 255, 255, 0.071);
+  }
+  
+  .gift-button.lassana-flora {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WO9hLoMr9HvSHz-N1cf_vHMoKYaRDXqgxA&s');
+    background-repeat: no-repeat;
+    background-color: #ffdf00;
+    color: rgba(255, 255, 255, 0);
+  }
+  
+  .gift-button.cactus-by-dee {
+    background-image: url('https://illustoon.com/photo/thum/2913.png');
+    background-repeat: no-repeat;
+    background-color: #00b3b3;
+    color: rgb(35, 34, 34);
+  }
+
+  .gift-button.map {
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFhytXNpQN46rqC5q0JeoCOBcz_Hh2weWTb-dzGSuK7E7S0e3sGxEJCjBuSMEP-lHl30&usqp=CAU');
+    background-repeat: no-repeat;
+    background-color: #00b3b3;
+    color: rgb(29, 27, 27);
+  }
+  
+  
+  .gift-button:hover {
+    opacity: 0.9;
+  }
+  

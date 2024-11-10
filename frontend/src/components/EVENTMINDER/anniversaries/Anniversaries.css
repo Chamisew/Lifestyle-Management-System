@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap'); /* Importing a cute font */
+
+.anniversaries-page {
+  padding: 40px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.anniversaries-page .header {
+  font-family: 'Comic Neue', cursive; /* Applying the cute font */
+  font-size: 45px;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 0; /* Removing the left margin */
+  text-align: center; /* Center the header */  margin-left: 90px;
+  font-size: 45px;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.anniversaries-page img {
+  max-width: 500px;
+  border-radius: 50px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.anniversaries-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 80px;
+}
+
+.reminder-button {
+  background-color: #0d3b66; /* Button color */
+  border: 2px solid #0d3b66; /* Border color */
+  color: #ffffff; /* Font color */
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.reminder-button:hover {
+  background-color: #ffffff; /* Hover background color */
+  color: #0d3b66; /* Hover font color */
+  border-color: #0d3b66; /* Hover border color */
+}
+
+.reminder-button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .anniversaries-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .anniversaries-options {
+    width: 90%;
+  }
+
+  .reminder-button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}

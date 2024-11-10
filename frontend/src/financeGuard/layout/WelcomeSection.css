@@ -1,0 +1,164 @@
+/* WelcomeSection.css */
+.iniwelcome-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.iniwelcome-content {
+  max-width: 60%;
+}
+
+.iniwelcome-content h2 {
+  color: #033b3a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.iniwelcome-content h1 {
+  font-size: 40px;
+  color: #033b3a;
+}
+
+.iniwelcome-content .highlight {
+  color: #bfdbf7;
+}
+
+.iniwelcome-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.iniwelcome-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.iniwelcome-stat-item {
+  text-align: center;
+}
+
+.iniwelcome-stat-item h3 {
+  font-size: 30px;
+  color: #033b3a;
+}
+
+.iniwelcome-stat-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.iniwelcome-explore-button {
+  background-color: #033b3a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.iniwelcome-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Default gap between images */
+  max-width: 100%;
+}
+
+/* Responsive Design */
+
+/* Medium screens (up to 1024px) */
+@media screen and (max-width: 1024px) {
+  .iniwelcome-section {
+      flex-direction: column;
+      padding: 30px;
+      text-align: center;
+  }
+
+  .iniwelcome-content {
+      max-width: 100%;
+  }
+
+  .iniwelcome-content h1 {
+      font-size: 36px; /* Slightly smaller */
+  }
+
+  .iniwelcome-content p {
+      font-size: 15px;
+  }
+
+  .iniwelcome-stats {
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 20px;
+  }
+
+  .iniwelcome-stat-item h3 {
+      font-size: 28px;
+  }
+}
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  .iniwelcome-section {
+      padding: 20px;
+  }
+
+  .iniwelcome-content h1 {
+      font-size: 32px; /* Reduce font size for mobile */
+  }
+
+  .iniwelcome-content p {
+      font-size: 14px;
+  }
+
+  .iniwelcome-stats {
+      flex-direction: column; /* Stack stat items */
+      gap: 15px;
+  }
+
+  .iniwelcome-stat-item h3 {
+      font-size: 24px; /* Smaller stats */
+  }
+
+  .iniwelcome-explore-button {
+      font-size: 15px; /* Adjust button size */
+      padding: 8px 18px;
+      margin-bottom: 30px;
+  }
+
+  .iniwelcome-images {
+      gap: 12px; /* Increased gap for better spacing on small screens */
+  }
+}
+
+/* Extra small screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  .iniwelcome-section {
+      padding: 15px;
+  }
+
+  .iniwelcome-content h1 {
+      font-size: 28px; /* Reduce font size for very small screens */
+  }
+
+  .iniwelcome-content p {
+      font-size: 13px;
+  }
+
+  .iniwelcome-stat-item h3 {
+      font-size: 22px;
+  }
+
+  .iniwelcome-explore-button {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+
+  .iniwelcome-images {
+      gap: 10px; /* Further adjust gap for very small screens */
+  }
+}

@@ -1,0 +1,88 @@
+.goalsert {
+  background-color: #0d1b2a;
+  color: #fff;
+  padding: 40px 0;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.goalsert-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 50px;
+}
+
+.goalsert-section {
+  flex-basis: 40%;
+}
+
+.goalsert-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #bfdbf7;
+}
+
+.goalsert-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goalsert-section ul li {
+  margin-bottom: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.goalsert-section ul li:hover {
+  color: #fbb03b;
+}
+
+/* Responsive Design */
+
+/* Medium screens (up to 1024px) */
+@media screen and (max-width: 1024px) {
+  .goalsert-container {
+    padding: 0 30px;
+  }
+
+  .goalsert-section h2 {
+    font-size: 36px;
+  }
+
+  .goalsert-section ul li {
+    font-size: 16px;
+  }
+}
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  .goalsert-container {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+    padding: 0 20px; /* Reduced padding for better fit */
+  }
+
+  .goalsert-section {
+    flex-basis: 100%; /* Full width for each section */
+    margin-bottom: 20px; /* Spacing between sections */
+  }
+
+  .goalsert-section h2 {
+    font-size: 28px; /* Smaller heading font size */
+  }
+
+  .goalsert-section ul li {
+    font-size: 15px;
+  }
+}
+
+/* Extra Small screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  .goalsert-section h2 {
+    font-size: 24px; /* Further reduced font size for very small screens */
+  }
+
+  .goalsert-section ul li {
+    font-size: 14px; /* Smaller font size for list items */
+  }
+}

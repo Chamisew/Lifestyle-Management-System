@@ -1,0 +1,50 @@
+/* UpdateHealthData.css */
+
+.update-health-data-container {
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Max width for the form */
+    margin: auto; /* Center the container */
+  }
+  
+  .update-health-data-header {
+    font-size: 2rem; /* Larger font size for header */
+    margin-bottom: 20px; /* Space below the header */
+    text-align: center; /* Center-align the header */
+  }
+  
+  .update-health-data-label {
+    font-weight: bold; /* Bold label text */
+  }
+  
+  .update-health-data-input,
+  .update-health-data-select {
+    width: 100%; /* Full width for input and select */
+    padding: 10px; /* Padding for input */
+    margin: 10px 0; /* Margin for spacing */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .update-health-data-button {
+    padding: 10px 15px; /* Padding for button */
+    margin: 10px 5px; /* Margin for spacing */
+    font-size: 1rem; /* Font size for button */
+    color: white; /* Text color for button */
+    background-color: #007bff; /* Primary color for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  .update-health-data-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .update-health-data-day-header {
+    margin-top: 20px; /* Space above the day header */
+  }
+  

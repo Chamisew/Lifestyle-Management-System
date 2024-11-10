@@ -1,0 +1,135 @@
+/* grid c4 */
+.grid-c4 .grid-c-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-family-bai);
+  
+}
+.grid-c4-content {
+  margin-top: 20px;
+  border-radius: 16px;
+ 
+}
+.grid-c4 .grid-c4-content {
+  padding: 12px;
+  max-height: 400px;
+}
+.grid-c4 .grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  
+}
+.grid-c4 .grid-item-l {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 16px;
+}
+.grid-c4 .grid-item-l .icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+.grid-c4 .grid-item-l .icon img {
+  width: 20px;
+  
+}
+.grid-c4 .grid-item-l .text {
+  font-weight: 600;
+}
+.grid-c4 .grid-item-l .text span {
+  font-weight: 300;
+  font-size: 15px;
+  display: block;
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+.grid-c4-content {
+  max-height: 450px; /* Set your desired maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+/* Customize scrollbar appearance */
+.grid-c4-content::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.grid-c4-content::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.grid-c4-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the thumb on hover */
+}
+
+.grid-c4-content::-webkit-scrollbar-track {
+ 
+  border-radius: 10px; /* Rounded corners for the scrollbar track */
+}
+
+
+/* Budget.css */
+
+/* Style for the modal overlay */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black overlay */
+}
+
+/* Style for the modal content */
+.ReactModal__Content {
+ 
+  margin-left: 30%;
+  width: 400px; /* Set your desired width */
+  background-color: #fff; /* White background for the modal */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Space inside the modal */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  outline: none; /* Remove default outline */
+  margin-top: 10%;
+}
+
+/* Style for the modal title */
+.ReactModal__Content h2 {
+  margin: 0 0 15px; /* Space below the title */
+}
+
+/* Style for form elements */
+.ReactModal__Content form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for input fields */
+.ReactModal__Content input,
+.ReactModal__Content select {
+  margin-bottom: 10px; /* Space between form elements */
+  padding: 10px; /* Padding inside the inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Style for buttons */
+.ReactModal__Content button {
+  margin-top: 10px; /* Space above buttons */
+  padding: 10px;
+  color: #022b3a; /* Text color */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: 2px solid #022b3a; /* Border width and color */
+  background-color: transparent; /* Set background color to transparent (optional) */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect on hover */
+}
+
+/* Optional: Add hover effect */
+.ReactModal__Content button:hover {
+  background-color: #022b3a; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+

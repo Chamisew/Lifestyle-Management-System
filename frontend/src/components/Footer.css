@@ -1,0 +1,56 @@
+/* Footer container styling */
+.xxfooter-container {
+    background-color: #f0f4f8; /* Light background color */
+    padding: 20px; /* Padding around the footer */
+    display: flex; /* Flex display for layout */
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    border-top: 1px solid #ccc; /* Top border for separation */
+  }
+  
+  /* Styling for each section title */
+  .xxfooter-title {
+    font-size: 20px; /* Font size for titles */
+    color: #333; /* Dark color for titles */
+    margin-bottom: 10px; /* Space below title */
+  }
+  
+  /* Footer list styling */
+  .xxfooter-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  /* Individual list item styling */
+  .xxfooter-list-item {
+    display: flex; /* Flex for icon and text alignment */
+    align-items: center; /* Center items vertically */
+    margin: 5px 0; /* Space between items */
+    color: #555; /* Darker gray for text */
+  }
+  
+  /* Icon styling */
+  .xxfooter-icon {
+    margin-right: 8px; /* Space between icon and text */
+    color: #007bff; /* Blue color for icons */
+  }
+  
+  /* Email link styling */
+  .xxfooter-email-link {
+    color: #007bff; /* Blue color for email link */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .xxfooter-email-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .xxfooter-container {
+      flex-direction: column; /* Stack sections vertically */
+      align-items: flex-start; /* Align items to the start */
+    }
+  }
+  

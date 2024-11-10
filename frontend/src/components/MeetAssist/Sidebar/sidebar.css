@@ -1,0 +1,54 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    left: -250px; /* Hide sidebar off-screen initially */
+    transition: left 0.3s ease;
+    width: 250px; /* Set your desired width */
+    height: 100%;
+    background: #f9f9f9; /* Background color of the sidebar */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+.sidebar.open {
+    left: 0; /* Show sidebar */
+}
+
+.sidebar.closed {
+    left: -250px; /* Hide sidebar */ /* Move sidebar out of view */
+}
+
+.toggle-btn {
+    background: #0d3b66; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark color for text */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.sidebar ul li {
+    padding: 15px; /* Space around list items */
+    cursor: pointer; /* Pointer on hover */
+    display: flex; /* Flex layout for icon and text */
+    align-items: center; /* Center items vertically */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    color: #333; /* Dark color for text */
+}
+
+.sidebar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change background on hover */
+}
+
+
+.sidebar ul li svg {
+    margin-right: 10px; /* Space between icon and text */
+}

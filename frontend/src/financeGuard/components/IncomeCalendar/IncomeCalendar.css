@@ -1,0 +1,41 @@
+.income-calendar-container>div{
+    margin: auto;
+    width: 90%;
+    padding: 0rem 5rem;
+    max-width: 1100px;
+    background-color: #bfdbf7;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 24px;
+  color: #000000;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+.income-calendar-container .fc-event{
+    background: red !important; 
+}
+.income-calendar-container .fc .fc-timegrid-slot{
+    height: 2.5rem!important;
+}
+.income-calendar-container td{
+    border : 1px solid #1f7a8c!important
+}
+
+.income-search-input {
+    margin-bottom: 20px; /* Increase the margin for better spacing */
+    padding: 12px; /* Increase padding for a larger input area */
+    width: 100%; /* Use full width of the container */
+    max-width: 400px; /* Increase the max width */
+    font-size: 16px; /* Increase font size for better readability */
+    border: 2px solid #1f7a8c; /* Change border color */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus effects */
+    margin-top: 40px;
+    margin-left: 15%;
+}
+
+.income-search-input:focus {
+    outline: none; /* Remove default outline */
+    border-color: #1f7a8c; /* Darker border color on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Add shadow effect on focus */
+}

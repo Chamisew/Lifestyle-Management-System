@@ -1,0 +1,113 @@
+/* Container for the entire add reminder form */
+.add-reminder-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-color: #f0f4f8; /* Light background color */
+  }
+  
+  /* Title styling */
+  .add-reminder-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Arial', sans-serif; /* Font style */
+  }
+  
+  /* Success/Error message styling */
+  .add-reminder-message {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+  }
+  
+  .add-reminder-message.success {
+    background-color: #d4edda; /* Light green for success */
+    color: #155724; /* Dark green for success text */
+  }
+  
+  .add-reminder-message.error {
+    background-color: #f8d7da; /* Light red for error */
+    color: #721c24; /* Dark red for error text */
+  }
+  
+  /* Form styling */
+  .add-reminder-form {
+    display: flex;
+    flex-direction: column;
+    background: white; /* White background for form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the form */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+  }
+  
+  /* Styling for form groups */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Form group labels */
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Label color */
+    font-family: 'Arial', sans-serif; /* Font style */
+  }
+  
+  /* Input styling */
+  .form-input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px;
+    transition: border-color 0.3s; /* Transition effect on border */
+    width: 100%; /* Full width for all input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+  }
+  
+  .form-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    padding: 10px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transition effect on hover */
+    width: 100%; /* Full width for the button */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .add-reminder-title {
+      font-size: 20px; /* Smaller title on small screens */
+    }
+  
+    .form-input {
+      font-size: 14px; /* Smaller input font size on small screens */
+    }
+  
+    .submit-button {
+      font-size: 14px; /* Smaller button font size on small screens */
+    }
+  }
+  

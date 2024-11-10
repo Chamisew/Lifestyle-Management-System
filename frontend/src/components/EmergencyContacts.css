@@ -1,0 +1,80 @@
+.emergency-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    padding: 2rem;
+  }
+  
+  .emergency-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0A354C;
+    margin-bottom: 0.5rem;
+  }
+  
+  .emergency-subtitle {
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #0A354C;
+    margin-bottom: 2rem;
+  }
+  
+  .hospital-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .hospital-item {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    transition: transform 0.3s;
+  }
+  
+  .hospital-item:hover {
+    transform: translateY(-3px);
+  }
+  
+  .hospital-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0A354C;
+    width: 100%;
+  }
+  
+  .hospital-logo {
+    width: 60px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .hospital-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-grow: 1;
+  }
+  
+  .hospital-button {
+    background: #0A354C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hospital-button:hover {
+    background: #0D4F8B; /* Darker shade for hover effect */
+  }
+  

@@ -1,0 +1,85 @@
+/* Container for the entire Doctor Appointments component */
+.doctor-appointments-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Title styling */
+  .doctor-appointments-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    font-family: 'Arial', sans-serif; /* Font style */
+  }
+  
+  /* Create Appointment Section */
+  .appointment-create-section {
+    margin-bottom: 30px;
+  }
+  
+  .appointment-create-title {
+    font-size: 24px;
+    color: #444;
+  }
+  
+  /* Button Container */
+  .appointment-create-buttons {
+    display: flex;
+    justify-content: space-around; /* Space buttons evenly */
+  }
+  
+  /* Button Styling */
+  .appointment-button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transition effect on hover */
+  }
+  
+  .appointment-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Your Appointments Section */
+  .appointment-list-section {
+    margin-top: 20px;
+  }
+  
+  .appointment-list-title {
+    font-size: 24px;
+    color: #444;
+  }
+  
+  /* Appointment List Styling */
+  .appointment-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .appointment-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Separator line */
+  }
+  
+  .appointment-service {
+    font-weight: bold; /* Bold for service */
+  }
+  
+  .appointment-date {
+    color: #666; /* Gray color for date */
+  }
+  
+  /* No Appointments Message */
+  .no-appointments-message {
+    text-align: center;
+    color: #888; /* Gray color for no appointments message */
+    font-style: italic; /* Italic style */
+  }
+  

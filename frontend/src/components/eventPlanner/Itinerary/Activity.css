@@ -1,0 +1,298 @@
+
+.more-planning-container {
+    width: 90%; 
+    max-width: 800px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.more-planning-title {
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #1a2d4e; 
+    margin-bottom: 15px; 
+    text-align: center; 
+    position: relative; 
+}
+
+/* .more-planning-title::after {
+    content: "";
+    display: block;
+    width: 80px; 
+    height: 4px; 
+    background-color: #617392; 
+    margin: 8px auto 0;
+    border-radius: 2px;
+} */
+
+
+.itinerary-details-box {
+    padding: 12px; 
+    border: 2px solid #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9; 
+    margin-bottom: 50px; 
+}
+
+
+.itinerary-info-title,
+.event-info-title,
+.add-activity-header,
+.activities-header {
+    font-size: 1.25rem; 
+    color: #1a2d4e;
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    border-bottom: 2px solid #5075b6; 
+    padding-bottom: 6px; 
+}
+
+
+.itinerary-name-info,
+.event-name-info,
+.no-event-info {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.no-event-info {
+    color: #888;
+    font-style: italic;
+}
+
+
+.activity-form {
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.date-time-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px; 
+}
+
+
+.form-item {
+    margin-bottom: 15px; 
+}
+
+.label-text {
+    display: block;
+    font-size: 0.875rem; 
+    margin-bottom: 6px; 
+    color: #333;
+}
+
+.input-text,
+.input-date,
+.input-time {
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid #ddd;
+    border-radius: 6px; 
+    font-size: 0.875rem; 
+    box-sizing: border-box;
+}
+
+
+.input-date,
+.input-time {
+    padding: 10px; 
+}
+
+
+.date-time-container {
+    gap: 8px; 
+}
+
+
+.date-input-container,
+.time-input-container {
+    flex: 1; 
+}
+
+.input-text:focus,
+.input-date:focus,
+.input-time:focus {
+    border-color: #1a2d4e;
+    outline: none;
+    box-shadow: 0 0 4px rgba(14, 42, 66, 0.2); 
+}
+
+
+.submit-activity-button,
+.update-activity-button,
+.cancel-update-button {
+    padding: 10px 15px; 
+    border: none;
+    border-radius: 6px; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem; 
+    transition: background-color 0.3s ease;
+}
+
+.submit-activity-button {
+    background-color: #273f67; 
+    width: 20%; 
+}
+
+.submit-activity-button:hover {
+    background-color: #1a2d4e;
+}
+
+.update-activity-button {
+    background-color: #38527e; 
+    margin-right: 3%;
+}
+
+.update-activity-button:hover {
+    background-color: #213b67; 
+}
+
+.cancel-update-button {
+    background-color: #dc3545;
+    margin-top: 10px; /* Adjusted top margin */
+}
+
+.cancel-update-button:hover {
+    background-color: #c82333;
+}
+
+
+.activity-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0; 
+}
+
+.activity-name-info {
+    font-size: 1rem; 
+    color: #1a2d4e;
+}
+
+.activity-date-info,
+.activity-time-info {
+    font-size: 0.875rem; 
+    color: #666;
+}
+
+.activity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.edit-activity-btn{
+    background: none;
+    border: none;
+    color: #273f67;
+    cursor: pointer;
+    font-size: 1.25rem;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.delete-activity-btn {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 1.25rem; 
+    margin-left: 20px; 
+    transition: color 0.3s ease;
+}
+.edit-activity-btn:hover{
+    color: #1a2d4e;
+}
+
+.delete-activity-btn:hover {
+    color: #c82333;
+}
+
+.edit-activity-btn::before,
+.delete-activity-btn::before {
+    margin-right: 6px; 
+}
+
+.edit-activity-btn::before {
+    content: "\f044"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.delete-activity-btn::before {
+    content: "\f1f8"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+
+.no-activities-info {
+    font-size: 1rem; 
+    color: #888;
+    text-align: center;
+    margin-top: 20px; 
+    font-style: italic;
+}
+
+
+.download-pdf-btn {
+    padding: 8px 12px; 
+    border: none;
+    border-radius: 6px; 
+    background-color: #FFB300; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem; 
+    margin-top: 20px; 
+    display: block;
+    width: auto; 
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.download-pdf-btn:hover {
+    background-color: #d59500;
+}
+
+
+@media (max-width: 768px) {
+    .more-planning-title {
+        font-size: 1.25rem; 
+    }
+
+    .activity-form {
+        margin-top: 15px; 
+    }
+
+    .date-time-container {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .submit-activity-button {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .more-planning-title {
+        font-size: 1rem; 
+    }
+
+    .submit-activity-button,
+    .update-activity-button,
+    .cancel-update-button {
+        padding: 8px 12px; 
+    }
+}

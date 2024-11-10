@@ -1,0 +1,74 @@
+.newsletter-container {
+  background-color: #f8f8f8;
+  padding: 30px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.newsletter-heading span {
+  color: #1f7a8c; /* Color for the NEWSLETTER part */
+}
+
+/* Buttons within the newsletter container */
+.newsletter-button {
+  padding: 10px 20px;
+  background-color: #1f7a8c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+  background-color: #e1e5f2;
+  color: #1f7a8c;
+}
+
+/* Responsive Design */
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  .newsletter-container {
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  .newsletter-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjusting the buttons for small screens */
+  .newsletter-button {
+    width: 100%; /* Full width for better layout on small screens */
+    padding: 12px 0;
+    font-size: 18px; /* Slightly larger font for easier touch interaction */
+    margin: 5px 0; /* Reduced margin for better stacking of buttons */
+  }
+}
+
+/* Extra Small screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  .newsletter-container {
+    padding: 15px;
+  }
+
+  .newsletter-heading {
+    font-size: 18px;
+  }
+
+  .newsletter-button {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+}

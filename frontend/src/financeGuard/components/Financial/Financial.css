@@ -1,0 +1,57 @@
+.loan-list {
+  max-height: 180px;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: var(--font-family-bai);
+}
+
+/* Customize the scrollbar for WebKit browsers */
+.loan-list::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.loan-list::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.loan-list::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the thumb on hover */
+}
+
+.loan-list::-webkit-scrollbar-track {
+
+  border-radius: 10px; /* Rounded corners for the scrollbar track */
+}
+
+.loan-item {
+  margin-bottom: 5px; /* Space between loan items */
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for items */
+}
+
+/* Additional reset for surrounding elements */
+.grid-c8-content {
+  margin: 0; /* Reset any surrounding margins */
+  padding: 0; /* Reset any surrounding paddings */
+}
+
+.lone-edit-button,
+.lone-delete-button {
+  margin-right: 3px; /* Reduced space between buttons */
+  font-size: 12px; /* Smaller font size for buttons */
+  padding: 3px 5px; /* Smaller padding for buttons */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 3px; /* Rounded corners for buttons */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth background color transition */
+    background-color: transparent;
+ 
+
+}
+

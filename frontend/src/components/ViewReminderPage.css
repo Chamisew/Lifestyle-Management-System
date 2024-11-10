@@ -1,0 +1,40 @@
+.view-reminder-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.view-reminder-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.view-reminder-details {
+    border-top: 2px solid #007bff;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.view-reminder-type {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.view-reminder-description,
+.view-reminder-days,
+.view-reminder-time {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.error {
+    color: #f44336; /* Red */
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}

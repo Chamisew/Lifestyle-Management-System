@@ -1,0 +1,94 @@
+.health-data-add-container {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .health-data-title {
+    font-size: 2rem;
+    color: #0A354C;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .health-data-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #333;
+  }
+  
+  .input-field,
+  .input-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .input-field:focus,
+  .input-select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .reading-group {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+  }
+  
+  .reading-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0A354C;
+  }
+  
+  .reading-inputs {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-button,
+  .cancel-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }
+  

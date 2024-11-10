@@ -1,0 +1,212 @@
+.addexpenses-container {
+  max-width: 100%;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addexpenses-container.highlight {
+  border: 3px solid #FF5733; 
+  background-color: #FFF4E6; 
+  box-shadow: 0 0 15px rgba(255, 87, 51, 0.5); 
+}
+
+.addexpenses-title {
+  font-size: 2.0rem; 
+  font-weight: bold;
+  color:  #1a2d4e;;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+} 
+
+/* .addexpenses-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background-color: #617392;
+  margin: 10px auto 0;
+  border-radius: 2px;
+} */
+
+.addexpenses-label,
+.addexpenses-input,
+.addexpenses-select,
+.addexpenses-checkbox {
+  font-size: 1rem; 
+ 
+}
+
+.addexpenses-input,
+.addexpenses-select,
+.addexpenses-checkbox {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b2bfd6;
+  border-radius: 4px;
+  background-color: #F7F7F7;
+  box-sizing: border-box;
+}
+
+.addexpenses-expenses-container {
+  margin-top: 20px;
+}
+
+.addexpenses-expenses-title {
+  font-size: 1.25rem; 
+  font-weight: bold;
+  color: #1a2d4e;
+  margin-bottom: 10px;
+}
+
+.addexpenses-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px 0 0;
+  background-color: #273f67;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addexpenses-button:hover {
+  background-color: #1a2d4e;
+}
+
+.addexpenses-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.addexpenses-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #F0F0F0;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.addexpenses-expense-name,
+.addexpenses-expense-amount {
+  font-size: 1rem; 
+}
+
+.addexpenses-icons-container {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.addexpenses-edit-icon,
+.addexpenses-delete-icon {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2rem; 
+
+}
+
+.addexpenses-edit-icon {
+  color: #273f67;
+  background-color: #F0F0F0;
+  
+}
+
+.addexpenses-edit-icon:hover {
+  color: #1a2d4e;
+  
+}
+
+.addexpenses-delete-icon {
+  color: #D33;
+  background-color: #F0F0F0;
+}
+
+.addexpenses-delete-icon:hover {
+  color: #A22;
+}
+
+.addexpenses-total {
+  font-size: 1.875rem; 
+  font-weight: bold;
+  color: #1a2d4e;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.addexpenses-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.addexpenses-save-button,
+.addexpenses-download-button {
+  background-color: #273f67;
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 0.875rem; 
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  margin: 5px;
+}
+
+.addexpenses-save-button:hover,
+.addexpenses-download-button:hover {
+  background-color: #1a2d4e;
+}
+
+.addexpenses-shopping-button {
+  background-color: #FFC107;
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.addexpenses-shopping-button:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 768px) {
+  .addexpenses-container {
+      padding: 15px;
+  }
+
+  .addexpenses-title {
+      font-size: 2rem;
+  }
+
+  .addexpenses-expenses-title {
+      font-size: 1.125rem;
+  }
+
+  .addexpenses-button,
+  .addexpenses-save-button,
+  .addexpenses-download-button,
+  .addexpenses-shopping-button {
+      font-size: 0.75rem;
+      padding: 8px 12px;
+      width: auto;
+  }
+}

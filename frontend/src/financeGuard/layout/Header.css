@@ -1,0 +1,18 @@
+.inmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #022b3a;
+    height: 150px;
+  }
+  
+.inmain  .logo {
+    color: #BFDBF7;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+  }
+  
+ 
+ 

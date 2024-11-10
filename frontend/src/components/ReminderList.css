@@ -1,0 +1,116 @@
+/* Container for the reminder list */
+.reminder-list-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Title styling */
+  .reminder-list-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333; /* Darker text color */
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #ff0000; /* Red color for errors */
+  }
+  
+  /* Upcoming reminders count styling */
+  .upcoming-count {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Current time styling */
+  .current-time {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling */
+  .add-reminder-button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin-bottom: 15px; /* Space below button */
+  }
+  
+  .add-reminder-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Reminder list styling */
+  .reminder-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  /* Individual reminder item styling */
+  .reminder-item {
+    display: flex; /* Flexbox for item layout */
+    justify-content: space-between; /* Space between info and actions */
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between items */
+    background-color: #fff; /* White background for items */
+  }
+  
+  /* Reminder information styling */
+  .reminder-info {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack info vertically */
+  }
+  
+  /* Reminder type styling */
+  .reminder-type {
+    font-weight: bold; /* Bold type for emphasis */
+  }
+  
+  /* Time remaining styling */
+  .time-remaining {
+    color: #666; /* Lighter text color for secondary info */
+  }
+  
+  /* Reminder actions styling */
+  .reminder-actions {
+    display: flex; /* Flexbox for action buttons */
+    align-items: center; /* Center buttons vertically */
+  }
+  
+  /* Edit button styling */
+  .edit-button {
+    padding: 5px 10px;
+    background-color: #28a745; /* Green color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between buttons */
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Delete button styling */
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545; /* Red color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  

@@ -1,0 +1,62 @@
+/* Base styles for the banner */
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1639189702833-8de5ecf2ca8f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+  
+}
+
+/* Centering and styling the text in the banner */
+.banner-text {
+  margin-top: 10px;
+  text-align: center;
+  color: #bfdbf7;
+}
+
+/* Headings styling */
+.banner-text h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.banner-buttons .btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgb(19, 150, 157);
+}
+
+.btn-primary-income {
+  background-color: #f0f0f0;
+ color: #bfdbf7;
+}
+
+.btn-primary-income:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-secondary-income {
+  background-color: #f0f0f0;
+  color: #bfdbf7;
+}
+
+.btn-secondary-income:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive Styles */

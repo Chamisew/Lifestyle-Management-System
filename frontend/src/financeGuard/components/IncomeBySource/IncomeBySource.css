@@ -1,0 +1,50 @@
+/* IncomeBySource.css */
+
+.income-container {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-width: 1180px;
+}
+
+.income-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: max-content;
+}
+
+.income-card {
+  text-align: center;
+  padding: 2px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.income-title {
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.income-progressbar {
+  width: 120px;  /* Increase size */
+  height: 120px; /* Increase size */
+  margin: 0 auto;
+  position: relative;
+}
+
+.income-amount {
+  margin-top: 15px;
+  font-size: 14px;
+}

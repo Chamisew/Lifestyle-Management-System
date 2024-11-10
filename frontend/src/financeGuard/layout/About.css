@@ -1,0 +1,99 @@
+.incomeabout-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f3f3f3;
+}
+
+.incomeabout-text {
+  flex: 1;
+  margin-right: 20px; /* Optional: spacing between text and stats */
+}
+
+.incomeabout-text h2 {
+  font-size: 2.5rem;
+  color: #022b3a;
+}
+
+.incomeabout-stats {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.incomeabout--item {
+  text-align: center;
+}
+
+.incomeabout-stat-item h3 {
+  font-size: 2rem;
+  color: #0c2236;
+}
+
+.incomeabout-stat-item p {
+  color: #888;
+}
+
+/* Responsive Design */
+
+/* Medium screens (up to 1024px) */
+@media screen and (max-width: 1024px) {
+  .incomeabout-section {
+      flex-direction: column; /* Stack text and stats vertically */
+      padding: 30px;
+  }
+
+  .incomeabout-text h2 {
+      font-size: 2.2rem; /* Slightly smaller heading */
+  }
+
+  .incomeabout-stats {
+      flex-direction: row; /* Keep stats in a row for medium screens */
+      gap: 15px;
+  }
+
+  .incomeabout-stat-item h3 {
+      font-size: 1.8rem; /* Adjust font size */
+  }
+}
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  .incomeabout-section {
+      padding: 20px;
+  }
+
+  .incomeabout-text h2 {
+      font-size: 2rem; /* Adjust font size for small screens */
+  }
+
+  .incomeabout-stats {
+      flex-direction: column; /* Stack the stat items vertically */
+      align-items: center;
+      gap: 20px;
+  }
+
+  .incomeabout-stat-item h3 {
+      font-size: 1.6rem; /* Adjust font size */
+  }
+}
+
+/* Extra small screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  .incomeabout-section {
+      padding: 15px;
+  }
+
+  .incomeabout-text h2 {
+      font-size: 1.8rem; /* Smaller font size for mobile */
+  }
+
+  .incomeabout-stat-item h3 {
+      font-size: 1.4rem;
+  }
+
+  .incomeabout-stat-item p {
+      font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,92 @@
+/* Header Navigation Styling */
+.navxx {
+    display: flex;
+    justify-content: space-between; /* Ensures left and right sections are apart */
+    align-items: center;
+    background-color: #022b3aff;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  /* Left Section (Logo and Title) */
+  .navxx-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navxx-logo {
+    width: 50px; /* Adjust the logo size */
+    height: auto;
+  }
+  
+  .navxx-title {
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  /* Right Section (Navigation Links and User Info) */
+  .navxx-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navxx-links {
+    display: flex;
+    list-style: none;
+    margin-right: 20px; /* Space between links and user-info */
+  }
+  
+  .navxx-links li {
+    margin-left: 20px;
+  }
+  
+  .navxx-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navxx-links a:hover {
+    background-color: #0d3b66; /* Hover effect on links */
+    border-radius: 5px;
+  }
+  
+  .navxx-active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  
+  /* User Info */
+  .navxx-user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navxx-user-icon {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  
+  .navxx-profileName {
+    font-size: 16px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navxx {
+      flex-direction: column;
+    }
+    .navxx-right {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navxx-links {
+      margin: 0;
+      flex-direction: column;
+    }
+    .navxx-links li {
+      margin: 10px 0;
+    }
+  }

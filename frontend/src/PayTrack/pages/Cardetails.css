@@ -1,0 +1,59 @@
+/* Cardetails CSS */
+.carddetailcon{
+    display: flex;
+    overflow: hidden; /* Prevent overflow of container */
+    margin-top: 30px;
+}
+/* General Layout */
+/* General Layout */
+.cardmain {
+  
+    margin: 20px 0; /* Margin for spacing above and below */
+   
+    width: 100%; /* Full width of the container */
+}
+
+.sectioncard{
+    margin-left: 10px;
+}
+/* Main Content Container */
+.cardetails-container {
+    margin-top: 100px;
+    border-top: 1px solid #ddd; /* Light border for separation */
+    display: flex; /* Use flexbox for layout */
+    flex: 1; /* Allow this section to grow and take available space */
+    justify-content: space-between; /* Space between the two sections */
+    padding: 20px; /* Padding around the container */
+    box-sizing: border-box; /* Include padding in width calculation */
+    width: 100%; /* Ensure full width usage */
+    height: calc(100vh - 80px); /* Adjust height to fit below the video line */
+}
+
+/* Add Card Section */
+.add-card-section {
+    flex: 1; /* Flex-grow to take available space */
+    max-width: 100%; /* Ensure full width usage */
+    padding: 10px; /* Add some padding inside the section */
+    box-sizing: border-box; /* Include padding in width calculation */
+   
+}
+
+/* Card List Section */
+.card-list-section {
+    flex: 2; /* Flex-grow to take more space than the form */
+    max-width: 100%; /* Ensure full width usage */
+    padding: 10px; /* Add some padding inside the section */
+    box-sizing: border-box; /* Include padding in width calculation */
+  
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cardetails-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    
+    .add-card-section, .card-list-section {
+        max-width: 100%; /* Full width for stacked layout */
+    }
+}

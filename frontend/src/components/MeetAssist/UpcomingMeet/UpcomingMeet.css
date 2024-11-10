@@ -1,0 +1,120 @@
+/* Container styling */
+.upcoming-meetings-container-ma {
+  padding: 20px;
+  background-color: #f9f9f9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+/* Navigation styling */
+.meet-nav-ma {
+  background-color: #0E4239;
+  color: white;
+  padding: 10px;
+}
+
+/* Main heading styling */
+.main-heading-ma {
+  font-size: 36px;
+  color: #1f7a8cff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.search-bar-container-ma {
+  display: flex; /* Use flex to align items */
+  align-items: center; /* Center the items vertically */
+  position: relative; /* Relative position for absolute child */
+  width: 50%; /* Set width as per your layout */
+  margin: 0 auto; /* Center the container */
+  margin-bottom: 20px; /* Space below the search bar */
+}
+
+/* Search Bar Input */
+.search-bar-ma {
+  padding: 10px;
+  padding-right: 30px; /* Space for the icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%; /* Full width of the container */
+}
+
+/* Search Icon Styling */
+.search-bar-icon-ma {
+  margin-right: 10px; /* Space between icon and input */
+  color: #0d3b66; /* Change to your desired color */
+  font-size: 20px; /* Adjust size */
+}
+
+.search-bar-ma:focus {
+  border-color: #1f7a8cff; /* Change border color on focus */
+  outline: none; /* Remove outline */
+}
+
+/* Meetings list styling */
+.meetings-list-ma {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 15px; /* Space between items */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Meeting item styling */
+.meeting-item-ma {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Width of each item */
+  width: 100%; /* Full width of the container */
+  text-align: center; /* Center text inside each item */
+}
+
+/* Meeting name styling */
+.meeting-name-ma {
+  font-size: 24px;
+  color: #1f7a8cff;
+  margin-bottom: 10px;
+}
+
+/* View details button styling */
+.view-details-button-ma {
+  background-color: #0d3b66;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-details-button-ma:hover {
+  background-color: #e1e5f2ff;
+  color: #0d3b66;
+}
+/* Search Icon Styling */
+.search-icon-ma {
+  position: absolute; /* Position the icon inside the input */
+  right: 10px; /* Adjust position from the right */
+  top: 50%; /* Center the icon vertically */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+  color: #0d3b66; /* Change to your desired color */
+  font-size: 20px; /* Adjust size */
+  pointer-events: none; /* Prevent click events on the icon */
+}
+
+
+/* Styling for the sidebar toggle icon */
+.sidebar-up-ma{
+  cursor: pointer; /* Change cursor to pointer when hovering */
+  position: absolute; /* Position it where you want */
+  top: 20px; /* Adjust the position */
+  left: 20px; /* Adjust the position */
+  color: black; /* Icon color */
+  font-size: 30px; /* Icon size */
+  z-index: 10; /* Ensure it’s above other elements */
+}

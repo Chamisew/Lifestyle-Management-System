@@ -1,0 +1,198 @@
+.services-section-income {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services-section-income h2 {
+  color: #1F7A8C;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.services-section-income h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.services-section-income h3 .highlight {
+  color: #1F7A8C;
+}
+
+.services-container-income {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.service-card-income {
+  background-color: #e1e5f2;
+  padding: 40px 20px;
+  width: 350px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.service-card-income:hover {
+  transform: translateY(-10px);
+  background-color: #bfdbf7;
+}
+
+.icon-container-income {
+  font-size: 50px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+}
+
+.service-card-income h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.service-card-income p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive Design */
+
+/* Medium screens (up to 1024px) */
+@media screen and (max-width: 1024px) {
+  .services-container-income {
+      flex-wrap: wrap;
+  }
+
+  .service-card-income {
+      width: 45%; /* Adjust card width for medium screens */
+      margin: 20px auto;
+  }
+}
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  .services-container-income {
+      flex-direction: column;
+  }
+
+  .service-card-income {
+      width: 80%; /* Adjust card width for smaller screens */
+      padding: 30px 15px; /* Reduce padding */
+      margin: 15px 0;
+  }
+
+  .icon-container-income {
+      width: 70px; /* Adjust icon size */
+      height: 100px;
+      font-size: 40px;
+  }
+
+  .service-card-income h4 {
+      font-size: 18px; /* Adjust heading size */
+  }
+
+  .service-card-income p {
+      font-size: 13px; /* Adjust text size */
+  }
+}
+
+/* Extra small screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  .services-section-income {
+      padding: 30px 10px;
+  }
+
+  .services-container-income {
+      flex-direction: column;
+  }
+
+  .service-card-income {
+      width: 90%; /* Narrow the card width for very small screens */
+      padding: 20px 10px;
+  }
+
+  .icon-container-income {
+      width: 60px; /* Further adjust icon size */
+      height: 60px;
+      font-size: 35px;
+  }
+
+  .service-card-income h4 {
+      font-size: 16px; /* Adjust heading size */
+  }
+
+  .service-card-income p {
+      font-size: 12px; /* Adjust text size */
+  }
+}
+@media screen and (max-width: 768px) {
+  .services-container-income {
+    flex-direction: column; /* Stacks the cards vertically */
+    align-items: center; /* Centers the cards */
+    gap: 15px; /* Adjusts spacing for vertical layout */
+  }
+
+  .service-card-income {
+    width: 80%; /* Makes the cards wider on smaller screens */
+    padding: 30px 15px; /* Reduces padding for better fit */
+    margin: 15px 0;
+  }
+
+  .icon-container-income {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+  }
+
+  .service-card-income h4 {
+    font-size: 18px;
+  }
+
+  .service-car-incomed p {
+    font-size: 13px;
+  }
+}
+
+/* Extra small screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  .services-section-income {
+    padding: 30px 10px; /* Reduces padding for very small screens */
+  }
+
+  .services-container-income {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Further reduces spacing */
+  }
+
+  .service-card-income {
+    width: 90%; /* Nearly full width for better readability */
+    padding: 20px 10px; /* Minimizes padding */
+  }
+
+  .icon-container-income {
+    width: 60px;
+    height: 100px;
+    font-size: 35px;
+  }
+
+  .service-card-income h4 {
+    font-size: 16px;
+  }
+
+  .service-card-income p {
+    font-size: 12px;
+  }
+}

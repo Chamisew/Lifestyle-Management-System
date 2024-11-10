@@ -1,0 +1,37 @@
+.payment-types-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+
+.payment-type-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px; /* Adjust width as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-type-icon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.payment-type-info {
+  flex: 1;
+}
+
+.payment-type-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.payment-type-amount {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}

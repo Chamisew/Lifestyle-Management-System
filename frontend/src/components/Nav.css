@@ -1,0 +1,82 @@
+/* Container for the navigation bar */
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* Space between logo/title and navigation links */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Padding around the nav */
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  /* Logo and Title styling */
+  .nav-logo {
+    display: flex;
+    align-items: center; /* Center logo and title vertically */
+  }
+  
+  .nav-logo-image {
+    height: 50px; /* Set height for logo */
+    margin-right: 10px; /* Spacing between logo and title */
+  }
+  
+  .nav-title {
+    font-size: 24px; /* Font size for title */
+    color: #333; /* Dark color for title */
+    font-family: 'Arial', sans-serif; /* Font style */
+  }
+  
+  /* Navigation menu styling */
+  .nav-menu {
+    flex-grow: 1; /* Allow the nav menu to grow and fill space */
+  }
+  
+  .nav-list {
+    display: flex; /* Flex display for horizontal list */
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .nav-list-item {
+    margin: 0 15px; /* Spacing between list items */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue color for links */
+    font-size: 16px; /* Font size for links */
+    transition: color 0.3s; /* Transition effect on hover */
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Profile section styling */
+  .nav-profile {
+    display: flex; /* Flex for profile section */
+    align-items: center; /* Center profile elements vertically */
+  }
+  
+  .nav-welcome-message {
+    margin-right: 10px; /* Spacing between welcome message and profile image */
+    color: #333; /* Dark color for welcome message */
+  }
+  
+  .nav-profile-image {
+    height: 40px; /* Set height for profile image */
+    border-radius: 50%; /* Circular profile image */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column; /* Stack links vertically on small screens */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .nav-list-item {
+      margin: 5px 0; /* Adjust spacing for vertical layout */
+    }
+  }
+  

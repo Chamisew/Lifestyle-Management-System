@@ -1,0 +1,134 @@
+.center-container-evp {
+    display: grid;
+    place-items: center; 
+    height: 80vh;
+    width: 60vw; 
+    margin-left: 13%;
+    box-sizing: border-box; 
+  }
+  
+  .itinerary-container-evp {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .itinerary-title-evp {
+    color: #1a2d4e;
+    text-align: center;
+    margin-bottom: 10px; 
+  }
+  
+  .itinerary-subtitle-evp {
+    color: #303a34;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px; 
+  }
+  
+  .itinerary-form-evp {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group-evp {
+    margin-bottom: 20px; 
+  }
+  
+  .form-label-evp {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1a2d4e; 
+  }
+  
+  .form-input-evp,
+  .form-select-evp {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-size: 16px;
+  }
+  
+  .form-select-evp {
+    background-color: #fff;
+    appearance: none; 
+  }
+  
+  .form-buttons-evp {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .submit-button-evp,
+  .visit-button-evp {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #273f67; 
+    color: #ffffff; 
+    transition: background-color 0.3s, transform 0.2s; 
+  }
+  
+  .submit-button-evp:hover,
+  .visit-button-evp:hover {
+    background-color: #1a2d4e; 
+  }
+  
+  .submit-button-evp:active,
+  .visit-button-evp:active {
+    transform: scale(0.98); 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .itinerary-container-evp {
+      padding: 15px;
+      max-width: 90%; 
+    }
+  
+    .form-group-evp {
+      margin-bottom: 15px;
+    }
+  
+    .form-input-evp,
+    .form-select-evp {
+      font-size: 14px; 
+    }
+  
+    .submit-button-evp,
+    .visit-button-evp {
+      padding: 8px 16px; 
+      font-size: 14px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .itinerary-container-evp {
+      padding: 10px;
+      max-width: 100%; 
+    }
+  
+    .form-group-evp {
+      margin-bottom: 10px; 
+    }
+  
+    .form-input-evp,
+    .form-select-evp {
+      font-size: 12px; 
+    }
+  
+    .submit-button-evp,
+    .visit-button-evp {
+      padding: 6px 12px; 
+      font-size: 12px; 
+    }
+  }
+  

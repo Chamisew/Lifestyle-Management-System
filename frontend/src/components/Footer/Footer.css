@@ -1,0 +1,89 @@
+/* General Footer Styling */
+.footer {
+  background-color: #111;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 40px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-footer {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  width: 50px;
+}
+
+.footer-title {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.footer-description {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.social-links img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.footer-contact {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #FFFFFF;
+}

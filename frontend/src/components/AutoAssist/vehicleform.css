@@ -1,0 +1,92 @@
+/* vehicleform.css */
+
+/* General form styling */
+.vehicleform form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+.vehicleform label {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input and select field styling */
+.vehicleform input[type="text"],
+.vehicleform input[type="number"],
+.vehicleform input[type="email"],
+.vehicleform input[type="date"],
+.vehicleform select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Dropdown styling */
+.vehicleform select {
+    cursor: pointer;
+}
+
+/* Error message styling */
+.vehicleform .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Button styling */
+.vehicleform button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:#0d3b66;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.vehicleform button[type="submit"]:hover {
+    font-weight: bold;
+    color: black;
+    background-color: #bfdbf7ff;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .vehicleform form {
+        padding: 15px;
+    }
+
+    .vehicleform label {
+        font-size: 14px;
+    }
+
+    .vehicleform input[type="text"],
+    .vehicleform input[type="number"],
+    .vehicleform input[type="email"],
+    .vehicleform input[type="date"],
+
+    .vehicleform select {
+        font-size: 13px;
+    }
+
+    .vehicleform button[type="submit"] {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,266 @@
+/* General container styling for the event list */
+.event-list-container {
+  padding: 30px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  min-height: calc(100vh - 100px); /* Adjust this based on the header and footer height */
+}
+
+/* Main container holding navigation, event list, and footer */
+.showdeleEvet {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the content fills the viewport including the footer */
+}
+
+/* Ensures that the event list takes up remaining space, allowing footer to stay at the bottom */
+.showdeleEvet > div {
+  flex: 1;
+}
+
+/* Event list title */
+.list-title {
+  font-size: 2em; 
+  font-weight: bold;
+  color: #1a2d4e; 
+  text-align: center; 
+  margin: 30px 0;
+  position: relative;
+}
+
+/* Search container for event search input and icon */
+.eventsearch-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative; 
+}
+
+/* Search box styling */
+.eventsearch-box {
+  width: 25vw; 
+  max-width: 400px;
+  height: 40px; 
+  padding: 0 35px 0 45px; 
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  font-size: 1em;
+  box-sizing: border-box; 
+  margin-left: 20%;
+}
+
+/* Search icon positioning */
+.eventsearch-icon {
+  position: absolute; 
+  left: 10px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  color: #1a2d4e;
+  pointer-events: none; 
+  margin-left: 20%;
+}
+
+/* Event list styling */
+.event-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+/* Individual event card styling */
+.event-card {
+  position: relative; 
+  background-color: #F7F7F7;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+/* Decorative line on top of the event card */
+.event-card::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%; 
+  height: 5px; 
+  background-color: #273f67; 
+  border-top-left-radius: 5px; 
+}
+
+/* Event information section */
+.event-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Event title styling */
+.event-header {
+  font-size: 1.5em;
+  color: #1a2d4e;
+  margin-bottom: 10px;
+}
+
+/* Individual event detail styling */
+.event-date, .event-time, .event-location, .event-attendees, .event-note {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+/* Buttons container for editing and deleting events */
+.event-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Edit button styling */
+.event-edit-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #273f67;
+  color: #ffffff;
+  min-width: 100px;
+}
+
+/* Edit button hover state */
+.event-edit-btn:hover {
+  background-color: #1a2d4e;
+}
+
+/* Delete button styling */
+.event-delete-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #d33;
+  color: #FFFFFF;
+  min-width: 100px;
+}
+
+/* Delete button hover state */
+.event-delete-btn:hover {
+  background-color: #a22;
+}
+
+/* No events message styling */
+.no-events-message {
+  font-size: 1.2em;
+  color: #555555;
+}
+
+/* Loader animation for loading events */
+.load {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+/* Keyframe for loader spin */
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* Loader container styling */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Responsive styling for medium screens (1024px and below) */
+@media (max-width: 1024px) {
+  .event-list-container {
+      padding: 20px;
+  }
+
+  .eventsearch-box {
+      width: 30vw; 
+      max-width: 300px;
+  }
+
+  .event-header {
+      font-size: 1.2em;
+  }
+
+  .event-edit-btn, .event-delete-btn {
+      padding: 8px 12px; 
+      font-size: 0.9em; 
+      min-width: 90px; 
+  }
+}
+
+/* Responsive styling for small screens (768px and below) */
+@media (max-width: 768px) {
+  .event-list-container {
+      padding: 15px;
+  }
+
+  .eventsearch-box {
+      width: 40vw; 
+      max-width: 250px;
+  }
+
+  .event-header {
+      font-size: 1em;
+  }
+
+  .event-buttons {
+      flex-direction: column;
+      align-items: flex-end;
+  }
+
+  .event-edit-btn, .event-delete-btn {
+      padding: 6px 10px;
+      font-size: 0.8em; 
+      min-width: 80px;
+      margin-bottom: 5px; 
+  }
+}
+
+/* Responsive styling for very small screens (480px and below) */
+@media (max-width: 480px) {
+  .event-list-container {
+      padding: 10px;
+  }
+
+  .eventsearch-box {
+      width: 50vw; 
+      max-width: 200px;
+  }
+
+  .event-header {
+      font-size: 0.9em;
+  }
+
+  .event-edit-btn, .event-delete-btn {
+      padding: 5px 8px; 
+      font-size: 0.7em; 
+      min-width: 70px; 
+  }
+}

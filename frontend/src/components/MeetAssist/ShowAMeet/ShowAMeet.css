@@ -1,0 +1,139 @@
+/* Container styling */
+.meeting-container-ma {
+  padding: 20px;
+ 
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh; /* Set a minimum height so the container covers the entire viewport */
+  color: #f9f9f9; /* Set a default text color if needed */
+}
+
+/* Navigation styling */
+.meet-nav-ma{
+  background-color: #022b3aff;
+  color: white;
+  padding: 10px;
+}
+
+/* Meeting details styling */
+.meeting-details-ma {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.meeting-title-ma {
+  font-size: 36px;
+  color:  #022b3aff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.meeting-detail-ma {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.countdown-container-ma {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #eaf0f1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-label-ma {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.countdown-timer-ma {
+  display: flex;
+  justify-content: space-around;
+}
+
+.countdown-item-ma {
+  text-align: center;
+}
+
+.countdown-item-ma .countdown-label-ma {
+  display: block;
+  font-size: 15px;
+  color: black;
+}
+
+.countdown-item-ma .countdown-value-ma {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+
+.meeting-buttons-ma {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.edit-button-ma,
+.delete-button-ma {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button-ma {
+  background-color:  #0d3b66;
+  color: white;
+}
+
+.edit-button-ma:hover {
+  background-color:  #bfdbf7ff;
+}
+
+.delete-button-ma {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.delete-button-ma:hover {
+  background-color: #cc0000;
+}
+
+.loading-text-ma {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Styling for the sidebar toggle icon */
+.sidebar-show-ma{
+  margin-top: 70px;
+  cursor: pointer; /* Change cursor to pointer when hovering */
+  position: absolute; /* Position it where you want */
+  top: 20px; /* Adjust the position */
+  left: 20px; /* Adjust the position */
+  color: black; /* Icon color */
+  font-size: 30px; /* Icon size */
+  z-index: 10; /* Ensure it’s above other elements */
+}

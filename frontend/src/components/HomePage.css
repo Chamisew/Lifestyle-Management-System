@@ -1,0 +1,184 @@
+/* General Styles */
+.hp-container {
+    padding: 2rem;
+    background: linear-gradient(to right, #e0f7fa, #cfe8f9);
+    min-height: 100vh;
+  }
+  
+  .hp-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0a354c;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  /* Buttons Styles */
+  .hp-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hp-buttons-container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  .hp-button {
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  .hp-add-reminder-btn {
+    background-color: #0a354c;
+    color: white;
+  }
+  
+  .hp-add-reminder-btn:hover {
+    background-color: #083040;
+  }
+  
+  .hp-view-reminder-btn {
+    background-color: #fbbf24;
+    color: white;
+  }
+  
+  .hp-view-reminder-btn:hover {
+    background-color: #f59e0b;
+  }
+  
+  .hp-emergency-contacts-btn {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .hp-emergency-contacts-btn:hover {
+    background-color: #dc2626;
+  }
+  
+  /* Services Cards */
+  .hp-services-grid {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hp-services-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .hp-service-card {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .hp-service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .hp-service-img {
+    margin: 0 auto 1.5rem auto;
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .hp-service-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0a354c;
+    margin-bottom: 1rem;
+  }
+  
+  .hp-service-description {
+    color: #4b5563;
+  }
+  
+  /* E-Channeling Section */
+  .hp-echannelling-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0a354c;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .hp-echannelling-section {
+    gap: 2rem;
+  }
+  
+  .hp-echannelling-card {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  @media (min-width: 768px) {
+    .hp-echannelling-card {
+      flex-direction: row;
+    }
+  }
+  
+  .hp-echannelling-card-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hp-echannelling-card-content {
+      margin-bottom: 0;
+    }
+  }
+  
+  .hp-echannelling-img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .hp-echannelling-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0a354c;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hp-echannelling-description {
+    color: #4b5563;
+  }
+  
+  .hp-echannelling-btn {
+    padding: 0.75rem 2rem;
+    background-color: #0a354c;
+    color: white;
+    font-weight: 600;
+    border-radius: 9999px;
+    transition: background 0.3s ease;
+  }
+  
+  .hp-echannelling-btn:hover {
+    background-color: #083040;
+  }
+  

@@ -1,0 +1,46 @@
+/* PatientCare.css */
+
+.patient-care-container {
+    padding: 20px;
+    text-align: center; /* Center text in the container */
+  }
+  
+  .header {
+    font-size: 2rem;
+    margin-bottom: 10px; /* Space below the header */
+  }
+  
+  .description {
+    margin-bottom: 20px; /* Space below the description */
+    font-size: 1.2rem; /* Slightly larger text */
+  }
+  
+  .service-container {
+    display: flex; /* Use flexbox to align services */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: center; /* Center align services */
+    gap: 20px; /* Space between items */
+  }
+  
+  .service-card {
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    width: 250px; /* Fixed width for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: transform 0.2s; /* Smooth transform effect */
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .service-title {
+    font-size: 1.5rem; /* Font size for service titles */
+    margin: 10px 0; /* Space above and below the title */
+  }
+  
+  .service-description {
+    font-size: 1rem; /* Font size for service descriptions */
+  }
+  

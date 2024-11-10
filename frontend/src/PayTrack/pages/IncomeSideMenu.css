@@ -1,0 +1,132 @@
+.income-side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures the logout button stays at the bottom */
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    position: relative; /* Required for absolute positioning of the toggle button */
+    transition: transform 0.3s ease; /* Smooth transition for opening and closing */
+  }
+  
+  .income-side-menu.closed {
+    transform: translateX(-40px); /* Hide the menu off-screen */
+    
+  }
+  
+  .income-side-menu.open {
+    transform: translateX(); /* Show the menu */
+    width: 250px;
+  }
+  
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: -50px; /* Adjust this value if needed */
+    background-color: #007bff; /* Button background color */
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    z-index: 10; /* Ensure it's above other content */
+  }
+  
+  .menu-toggle:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    color: white; /* Ensure icon color is visible */
+    
+  }
+  
+  .menu-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .income-side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1; /* Makes the menu grow to fill available space */
+    margin-top: 30px;
+  }
+  
+  .income-side-menu ul li {
+    margin-bottom: 20px;
+  }
+  
+  .income-side-menu ul li a {
+    
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+  }
+  
+  .income-side-menu ul li a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .income-side-menu ul li a .menu-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff; /* Default icon color */
+    transition: color 0.3s ease;
+  }
+  
+  .income-side-menu ul li a:hover .menu-icon {
+    color: white; /* Change icon color on hover */
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333; /* Default text color */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: transparent; /* Ensure background is transparent */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .logout-button .menu-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff3333; /* Red color for logout icon */
+    margin-bottom: 10px;
+  }
+  
+  .logout-button:hover {
+    color: rgb(255, 255, 255); /* White text color on hover */
+    background-color: #ff3333; /* Red background on hover */
+  }
+  
+  .logout-button:hover .menu-icon {
+    color: white; /* White color for logout icon on hover */
+  }
+  .income-side-menu .logout-button:hover {
+    color: rgb(255, 255, 255); /* White text color on hover */
+    background-color: #ff3333; /* Red background on hover */
+  }
+  

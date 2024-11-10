@@ -1,0 +1,35 @@
+/* OrderPrescription.css */
+
+.order-prescription-container {
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align text */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .order-prescription-header {
+    font-size: 2rem; /* Larger font size for header */
+    margin-bottom: 10px; /* Space below the header */
+  }
+  
+  .order-prescription-description {
+    margin-bottom: 20px; /* Space below the description */
+    font-size: 1.2rem; /* Slightly larger font size */
+  }
+  
+  .order-prescription-button {
+    padding: 10px 20px; /* Padding for button */
+    font-size: 1rem; /* Font size for button */
+    color: white; /* Text color for button */
+    background-color: #007bff; /* Primary color for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  .order-prescription-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

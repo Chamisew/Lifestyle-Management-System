@@ -1,0 +1,175 @@
+.viewexpenses-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 100%;
+    max-width: 800px;
+    min-height: 100vh; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+.viewexpenses-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1a2d4e; 
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+/* .viewexpenses-title::after {
+    content: "";
+    display: block;
+    width: 50%;
+    max-width: 100px;
+    height: 5px;
+    background-color: #617392; 
+    margin: 10px auto 0;
+    border-radius: 2px;
+} */
+
+
+.viewexpenses-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+}
+
+.viewexpenses-header, 
+.viewexpenses-row td {
+    border: 1px solid #ddd; 
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle; 
+}
+
+.viewexpenses-header {
+    background-color:#8aa0be; 
+    color: #1a2d4e; 
+    font-weight: bold;
+}
+
+.viewexpenses-row {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.viewexpenses-row:hover {
+    background-color: #f1f1f1; 
+}
+
+.viewexpenses-budget-name {
+    vertical-align: middle;
+}
+
+.viewexpenses-actions {
+    text-align: center;
+    vertical-align: middle;
+    width: 80px; 
+}
+
+
+.viewexpenses-delete-icon {
+    color: #d9534f;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.viewexpenses-delete-icon:hover {
+    color: #c9302c;
+}
+
+.expenses-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative; 
+  }
+  
+  .expenses-search-input {
+    width: 25vw; 
+    max-width: 400px;
+    height: 40px; 
+    padding: 0 35px 0 45px; 
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    font-size: 1em;
+    box-sizing: border-box; 
+  }
+  
+  .expenses-search-icon {
+    position: absolute; 
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: #1a2d4e;
+    pointer-events: none; 
+  }
+  
+
+
+@media (max-width: 1200px) {
+    .viewexpenses-title {
+        font-size: 28px;
+    }
+
+    .viewexpenses-header,
+    .viewexpenses-row td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .viewexpenses-title {
+        font-size: 24px;
+    }
+
+    .viewexpenses-header,
+    .viewexpenses-row td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .viewexpenses-title {
+        font-size: 22px;
+    }
+
+    .viewexpenses-header,
+    .viewexpenses-row td {
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .viewexpenses-actions {
+        width: 70px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .viewexpenses-title {
+        font-size: 20px;
+    }
+
+    .viewexpenses-header,
+    .viewexpenses-row td {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    .viewexpenses-actions {
+        width: 60px; 
+    }
+
+    .viewexpenses-delete-icon {
+        font-size: 16px; 
+    }
+}

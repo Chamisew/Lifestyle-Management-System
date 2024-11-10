@@ -1,0 +1,73 @@
+.bandp {
+    font-family: 'Arial', sans-serif; /* Use a clean and readable font */
+    background-color: #f7f9fc; /* Soft background color for the component */
+    padding: 30px; /* Increased padding for a spacious layout */
+    border-radius: 12px; /* Rounded corners for the main container */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow effect for depth */
+ 
+    margin: 20px auto; /* Center the component on the page */
+}
+
+.bandp h2 {
+    font-size: 20px; /* Increased font size for better visibility */
+    color: #2c3e50; /* Darker text color for contrast */
+    margin: 15px 0; /* More space above and below headings */
+    text-align: center; /* Center align headings */
+}
+
+.budget-payment-container {
+    display: flex;
+    justify-content: space-between; /* Space evenly between the two containers */
+    margin: 20px 0; /* Vertical margin for separation */
+}
+
+.table-container {
+    flex: 1; /* Tables take equal space */
+    margin: 0 10px; /* Space between tables */
+    border-radius: 8px; /* Rounded corners for table containers */
+    background-color: #ffffff; /* White background for table containers */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for the tables */
+}
+
+.table-container h2 {
+    text-align: center; /* Center align section titles */
+    font-size: 22px; /* Larger font for section titles */
+    color: #2980b9; /* Bright blue color for titles */
+    margin: 15px 0; /* Space above and below titles */
+}
+
+table {
+    width: 100%; /* Full width for tables */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+}
+
+th, td {
+    padding: 12px; /* Increased padding for better touch targets */
+    text-align: left; /* Left align table content */
+    border-bottom: 1px solid #ddd; /* Underline for rows */
+}
+
+th {
+    background-color: #2980b9; /* Blue background for headers */
+    color: white; /* White text for better contrast */
+    font-weight: bold; /* Make header text bold */
+}
+
+tr:hover {
+    background-color: #ecf0f1; /* Light gray highlight on row hover */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra stripe effect for even rows */
+}
+
+@media (max-width: 768px) {
+    .budget-payment-container {
+        flex-direction: column; /* Stack the tables on smaller screens */
+        margin: 10px 0; /* Adjust margins for small screens */
+    }
+
+    .table-container {
+        margin: 10px 0; /* Space between stacked tables */
+    }
+}

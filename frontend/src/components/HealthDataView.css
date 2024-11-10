@@ -1,0 +1,97 @@
+.health-data-view-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+  }
+  
+  .filter-dropdown {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-button,
+  .report-button,
+  .edit-button,
+  .delete-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .add-button:hover,
+  .report-button:hover,
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .health-data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #0A354C;
+    color: white;
+  }
+  
+  .table-cell {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .table-row {
+    transition: background-color 0.2s;
+  }
+  
+  .even-row {
+    background-color: #f9f9f9;
+  }
+  
+  .odd-row {
+    background-color: white;
+  }
+  
+  .reading-text {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .actions-cell {
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+  }
+  
